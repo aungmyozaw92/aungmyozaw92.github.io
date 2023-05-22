@@ -1,1186 +1,1038 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <meta name="author" content="Trimatrix Lab">
-    <meta name="description" content="">
-    <meta name="keywords" content="">
 
+	<!-- Basic -->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>Aung Myo Zaw</title>
-    <link rel="icon" href="images/site/favicon.ico">
+	<title>Aung Myo Zaw</title>
 
-    <!--APPLE TOUCH ICON-->
-    <link rel="apple-touch-icon" href="images/site/apple-touch-icon.png">
+	<meta name="keywords" content="WebSite Template" />
+	<meta name="description" content="Aungmyozaw">
+	<meta name="author" content="aungmyozaw">
 
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+	<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
 
-    <!-- GOOGLE FONT -->
-    <link href='https://fonts.googleapis.com/css?family=Raleway:500' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'>
+	<!-- Mobile Metas -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
 
+	<!-- Web Fonts  -->
+	<link id="googleFonts" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800&display=swap"
+		rel="stylesheet" type="text/css">
 
-    <!-- MATERIAL ICON FONT -->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <!-- FONT AWESOME -->
-    <link href="stylesheets/vendors/font-awesome.min.css" rel="stylesheet">
+	<!-- Vendor CSS -->
+	<link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="vendor/fontawesome-free/css/all.min.css">
+	<link rel="stylesheet" href="vendor/animate/animate.compat.css">
+	<link rel="stylesheet" href="vendor/simple-line-icons/css/simple-line-icons.min.css">
+	<link rel="stylesheet" href="vendor/owl.carousel/assets/owl.carousel.min.css">
+	<link rel="stylesheet" href="vendor/owl.carousel/assets/owl.theme.default.min.css">
+	<link rel="stylesheet" href="vendor/magnific-popup/magnific-popup.min.css">
 
+	<!-- Theme CSS -->
+	<link rel="stylesheet" href="css/theme.css">
+	<link rel="stylesheet" href="css/theme-elements.css">
+	<link rel="stylesheet" href="css/theme-blog.css">
+	<link rel="stylesheet" href="css/theme-shop.css">
 
-    <!-- ANIMATION -->
-    <link href="stylesheets/vendors/animate.min.css" rel="stylesheet">
+	<!-- Demo CSS -->
+	<link rel="stylesheet" href="css/demos/demo-resume.css">
 
-    <!-- MAGNIFICENT POPUP -->
-    <link href="stylesheets/vendors/magnific-popup.css" rel="stylesheet">
+	<!-- Skin CSS -->
+	<link id="skinCSS" rel="stylesheet" href="css/skins/skin-resume-blue.css">
 
-    <!-- SWIPER -->
-    <link href="stylesheets/vendors/swiper.min.css" rel="stylesheet">
+	<!-- Theme Custom CSS -->
+	<link rel="stylesheet" href="css/custom.css">
 
-
-    <!-- MATERIALIZE -->
-    <link href="stylesheets/vendors/materialize.css" rel="stylesheet">
-    <!-- BOOTSTRAP -->
-    <link href="stylesheets/vendors/bootstrap.min.css" rel="stylesheet">
-
-
-    <!-- CUSTOM STYLE -->
-    <link href="stylesheets/style.css" id="switch_style" rel="stylesheet">
-    <link href="stylesheets/custom.style.css" rel="stylesheet">
-    <!--TOGGLE-->
-    <link href="toggle/toggle.css" rel="stylesheet">
+	<!-- Head Libs -->
+	<script src="vendor/modernizr/modernizr.min.js"></script>
 
 </head>
 
-<body>
-
-
-    <!--==========================================
-                  PRE-LOADER
-===========================================-->
-    <div id="loading">
-        <div id="loading-center">
-            <div id="loading-center-absolute">
-                <div class="box-holder animated bounceInDown">
-                    <span class="load-box"><span class="box-inner"></span></span>
-                </div>
-                <!-- NAME & STATUS -->
-                <div class="text-holder text-center">
-                    <h2 id="Name">Aung Myo Zaw</h2>
-                    <h6>Senior Web Application Developer</h6>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!--==========================================
-                    HEADER
-===========================================-->
-    <header id="home">
-        <nav id="theMenu" class="menu">
-
-            <!--MENU-->
-            <div id="menu-options" class="menu-wrap">
-
-                <!--PERSONAL LOGO-->
-                <div class="logo-flat">
-                    <img alt="profile-image" class="img-responsive" src="./images/profile/profile1.jpg" alt="profile" />
-                </div>
-                <br>
-
-                <!--OPTIONS-->
-                <a href="#home"><i class="title-icon fa fa-user"></i>Home</a>
-                <a href="#about"><i class="title-icon fa fa-dashboard"></i>About</a>
-                <a href="#education"><i class="title-icon fa fa-graduation-cap"></i>Education</a>
-                <a href="#skills"><i class="title-icon fa fa-sliders"></i>Skills</a>
-                <a href="#experience"><i class="title-icon fa fa-suitcase"></i>Experience</a>
-                <a href="#portfolios"><i class="title-icon fa fa-archive"></i>Portfolios</a>
-                <a href="#interest"><i class="title-icon fa fa-heart"></i>Interest</a>
-                <!-- <a href="#testimonials"><i class="title-icon fa fa-users"></i>Testimonials</a> -->
-                <!-- <a href="#blog"><i class="title-icon fa fa-pencil-square"></i>Blog</a> -->
-                <a href="#contact"><i class="title-icon fa fa-envelope"></i>Contact</a>
-            </div>
-
-            <!-- MENU BUTTON -->
-            <div id="menuToggle">
-                <div class="toggle-normal">
-                    <i class="material-icons top-bar">remove</i>
-                    <i class="material-icons middle-bar">remove</i>
-                    <i class="material-icons bottom-bar">remove</i>
-                </div>
-            </div>
-        </nav>
-
-        <!--HEADER BACKGROUND-->
-        <div class="header-background section"></div>
-
-    </header>
-
-
-    <!--==========================================
-                   V-CARD
-===========================================-->
-    <div id="v-card-holder" class="section">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 col-sm-12 col-xs-12">
-
-                    <!-- V-CARD -->
-                    <div id="v-card" class="card">
-
-                        <!-- PROFILE PICTURE -->
-                        <div id="profile" class="right">
-                            <img alt="profile-image" class="img-responsive" src="./images/profile/profile1.jpg"
-                                alt="profile" />
-                            <div class="slant"></div>
-
-                            <!--EMPTY PLUS BUTTON-->
-                            <!-- <div class="btn-floating btn-large add-btn"><i class="material-icons">add</i></div> -->
-
-                            <!--VIDEO PLAY BUTTON-->
-                            <div id="button-holder" class="btn-holder">
-                                <div id="play-btn" class="btn-floating btn-large btn-play">
-                                    <i id="icon-play" class="material-icons">play_arrow</i>
-                                </div>
-                            </div>
-                        </div>
-                        <!--VIDEO CLOSE BUTTON-->
-                        <div id="close-btn" class="btn-floating icon-close">
-                            <i class="fa fa-close"></i>
-                        </div>
-
-                        <div class="card-content">
-
-                            <!-- NAME & STATUS -->
-                            <div class="info-headings">
-                                <h4 class="text-uppercase left">Aung Myo Zaw</h4>
-                                <h6 class="text-capitalize left">Senior Web Application Developer</h6>
-                            </div>
-
-                            <!-- CONTACT INFO -->
-                            <div class="infos">
-                                <ul class="profile-list">
-                                    <li class="clearfix">
-                                        <span class="title"><i class="material-icons">email</i></span>
-                                        <span class="content">aungmyozaw.dev@gmail.com</span>
-                                    </li>
-                                    <li class="clearfix">
-                                        <span class="title"><i class="material-icons">language</i></span>
-                                        <span class="content">www.aungmyozaw92.github.io</span>
-                                    </li>
-                                    <li class="clearfix">
-                                        <span class="title"><i class="material-icons">phone</i></span>
-                                        <span class="content">+95 9250303166</span>
-                                    </li>
-                                    <li class="clearfix">
-                                        <span class="title"><i class="material-icons">place</i></span>
-                                        <span class="content">Yangon , Myanmar</span>
-                                    </li>
-
-                                </ul>
-                            </div>
-
-                            <!--LINKS-->
-                            <div class="links">
-                                <!-- FACEBOOK-->
-                                <a href="https://www.facebook.com/aungmyo.zaw.1654" target="_blank" id="first_one"
-                                    class="social btn-floating indigo"><i class="fa fa-facebook"></i></a>
-                                <!-- TWITTER-->
-                                <!--  <a href="https://twitter.com" target="_blank" class="social  btn-floating blue"><i
-                                    class="fa fa-twitter"></i></a> -->
-                                <!-- GOOGLE+-->
-
-                                <a href="mailto:aungmyozaw.dev@gmail.com" class="social  btn-floating red"><i
-                                        class="fa fa-google-plus"></i></a>
-                                <!-- LINKEDIN-->
-                                <a href="https://www.linkedin.com/in/aung-myo-zaw-b852a8115/" target="_blank"
-                                    class="social  btn-floating blue darken-3"><i class="fa fa-linkedin"></i></a>
-                                <!-- Instagram-->
-                                <a href="https://www.instagram.com/myo690/" target="_blank"
-                                    class="social  btn-floating orange darken-3"><i class="fa fa-instagram"></i></a>
-                            </div>
-                        </div>
-                        <!--HTML 5 VIDEO-->
-                        <video id="html-video" class="video" poster="images/poster/poster.jpg" controls>
-                            <source src="videos/b.webm" type="video/webm">
-                            <source src="videos/a.mp4" type="video/mp4">
-                        </video>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!--==========================================
-                   ABOUT
-===========================================-->
-    <div id="about" class="section">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <!-- DETAILS -->
-                    <div id="about-card" class="card">
-                        <div class="card-content">
-                            <!-- ABOUT PARAGRAPH -->
-                            <p>
-                                My name is Aung Myo Zaw and I am a Senior Web Application Developer and Software
-                                Developer, currently living in Yangon Myanmar. I have a Bachelor In Software Engineering
-                                from Computer University TaungNgu and Diploma in Development from Myanmar Link and my
-                                primary focus and inspiration for my studies is Web Development. I am both driven and
-                                self-motivated, and I am constantly experimenting with new technologies and techniques.
-                                I am very passionate about Web Development, and strive to better myself as a developer,
-                                and the development community as a whole.
-                            </p>
-                        </div>
-
-                        <!-- BUTTONS -->
-                        <div id="about-btn" class="card-action">
-                            <div class="about-btn">
-                                <!-- DOWNLOAD CV BUTTON -->
-                                <a href="cv/Aungmyozaw'CV.pdf" target="_blank " class="btn waves-effect">Download CV</a>
-                                <!-- CONTACT BUTTON -->
-                                <a href="#contact" class="btn waves-effect">Contact Me</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <!--==========================================
-                   EDUCATION
-===========================================-->
-    <section id="education" class="section">
-        <div class="container">
-            <!-- SECTION TITLE -->
-            <div class="section-title">
-                <h4 class="text-uppercase text-center"><img src="images/icons/book.png" alt="demo">Education</h4>
-            </div>
-
-            <div id="timeline-education">
-
-                <!-- FIRST TIMELINE -->
-                <div class="timeline-block">
-                    <!-- DOT -->
-                    <div class="timeline-dot">
-                        <h6>B</h6>
-                    </div>
-                    <!-- TIMELINE CONTENT -->
-                    <div class="card timeline-content">
-                        <div class="card-content">
-                            <!-- TIMELINE TITLE -->
-                            <h6 class="timeline-title">B.C.Sc</h6>
-                            <!-- TIMELINE TITLE INFO -->
-                            <div class="timeline-info">
-                                <h6>
-                                    <small>Bachelor's Degree of Computer Science/Information Technology</small>
-                                </h6>
-                                <h6>
-                                    <small>2011</small>
-                                </h6>
-                            </div>
-                            <!-- TIMELINE PARAGRAPH -->
-                            <p>
-                                I completed bachelor from Computer University TaungNgu.
-                            </p>
-                            <!-- BUTTON TRIGGER MODAL -->
-                            <!-- <a href="#" class="modal-dot" data-toggle="modal" data-target="#myModal-1">
-                            <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
-                        </a> -->
-                        </div>
-                    </div>
-                </div>
-
-                <!-- SECOND TIMELINE -->
-                <div class="timeline-block">
-                    <!-- DOT -->
-                    <div class="timeline-dot">
-                        <h6>B</h6>
-                    </div>
-                    <!-- TIMELINE CONTENT -->
-                    <div class="card timeline-content">
-                        <div class="card-content">
-                            <!-- TIMELINE TITLE -->
-                            <h6 class="timeline-title">B.C.Sc(Hons:)</h6>
-                            <!-- TIMELINE TITLE INFO -->
-                            <div class="timeline-info">
-                                <h6>
-                                    <small>Bachelor's Degree of Computer Science/Information Technology</small>
-                                </h6>
-                                <h6>
-                                    <small>2012</small>
-                                </h6>
-                            </div>
-                            <!-- TIMELINE PARAGRAPH -->
-                            <p>
-                                I completed bachelor from Computer University TaungNgu.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- THIRD TIMELINE -->
-                <div class="timeline-block">
-                    <!-- DOT -->
-                    <div class="timeline-dot">
-                        <h6>D</h6>
-                    </div>
-                    <!-- TIMELINE CONTENT -->
-                    <div class="card timeline-content">
-                        <div class="card-content">
-                            <!-- TIMELINE TITLE -->
-                            <h6 class="timeline-title">Diploma</h6>
-                            <!-- TIMELINE TITLE INFO -->
-                            <div class="timeline-info">
-                                <h6>
-                                    <small> Diploma and Certificates</small>
-                                </h6>
-                                <h6>
-                                    <small>2013</small>
-                                </h6>
-                            </div>
-                            <!-- TIMELINE PARAGRAPH -->
-                            <p>
-                                I Certified Web Professional Foundation Course in Myanmar Link
-                            </p>
-
-                        </div>
-                    </div>
-                </div>
-
-                <!-- FOURTH TIMELINE -->
-                <div class="timeline-block">
-                    <!-- DOT -->
-                    <div class="timeline-dot"><i class="fa fa-graduation-cap"></i></div>
-                    <!-- TIMELINE CONTENT -->
-                    <div class="card timeline-content">
-                        <div class="card-content">
-                            <!-- TIMELINE TITLE -->
-                            <h6 class="timeline-title">Diploma</h6>
-                            <!-- TIMELINE TITLE INFO -->
-                            <div class="timeline-info">
-                                <h6>
-                                    <small></small>Diploma and Certificates
-                                </h6>
-                                <h6>
-                                    <small>2013</small>
-                                </h6>
-                            </div>
-                            <!-- TIMELINE PARAGRAPH -->
-                            <p>
-                                I certified Web Professional Advanced in Myanmar Link
-                            </p>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <!--==========================================
-                   SKILLS
-===========================================-->
-    <section id="skills" class="section">
-        <div class="container">
-            <!-- SECTION TITLE -->
-            <div class="section-title">
-                <h4 class="text-uppercase text-center"><img src="images/icons/mixer.png" alt="demo">Skills</h4>
-            </div>
-            <div class="row">
-                <div class="col-md-12 col-sm-12 col-xs-12">
-                    <div id="skills-card" class="card">
-                        <div class="card-content">
-                            <div class="row">
-                                <div class="col-md-4 col-sm-4 col-xs-12">
-                                    <!-- FIRST SKILL SECTION -->
-                                    <div class="skills-title">
-                                        <h6 class="text-center">Professional</h6>
-                                    </div>
-                                    <!-- FIRST SKILL BAR -->
-                                    <div class="skillbar" data-percent="90%">
-                                        <div class="skillbar-title"><span>HTML5</span></div>
-                                        <div class="skillbar-bar"></div>
-                                        <div class="skill-bar-percent">90%</div>
-                                    </div>
-                                    <!-- SECOND SKILL BAR  -->
-                                    <div class="skillbar" data-percent="90%">
-                                        <div class="skillbar-title"><span>CSS3</span></div>
-                                        <div class="skillbar-bar"></div>
-                                        <div class="skill-bar-percent">90%</div>
-                                    </div>
-                                    <!-- THIRD SKILL BAR  -->
-                                    <div class="skillbar" data-percent="78%">
-                                        <div class="skillbar-title"><span>jQuery</span></div>
-                                        <div class="skillbar-bar"></div>
-                                        <div class="skill-bar-percent">78%</div>
-                                    </div>
-                                    <!-- FOURTH SKILL BAR  -->
-
-                                    <div class="skillbar" data-percent="58%">
-                                        <div class="skillbar-title"><span>Vue js</span></div>
-                                        <div class="skillbar-bar"></div>
-                                        <div class="skill-bar-percent">58%</div>
-                                    </div>
-
-                                    <div class="skillbar" data-percent="30%">
-                                        <div class="skillbar-title"><span>React</span></div>
-                                        <div class="skillbar-bar"></div>
-                                        <div class="skill-bar-percent">30%</div>
-                                    </div>
-
-                                    <div class="skillbar" data-percent="30%">
-                                        <div class="skillbar-title"><span>Angular</span></div>
-                                        <div class="skillbar-bar"></div>
-                                        <div class="skill-bar-percent">30%</div>
-                                    </div>
-
-                                    <div class="skillbar" data-percent="20%">
-                                        <div class="skillbar-title"><span>Node js</span></div>
-                                        <div class="skillbar-bar"></div>
-                                        <div class="skill-bar-percent">20%</div>
-                                    </div>
-
-                                    <div class="skillbar" data-percent="80%">
-                                        <div class="skillbar-title"><span>PHP</span></div>
-                                        <div class="skillbar-bar"></div>
-                                        <div class="skill-bar-percent">80%</div>
-                                    </div>
-
-                                    <div class="skillbar" data-percent="80%">
-                                        <div class="skillbar-title"><span>Laravel</span></div>
-                                        <div class="skillbar-bar"></div>
-                                        <div class="skill-bar-percent">80%</div>
-                                    </div>
-
-                                    <div class="skillbar" data-percent="80%">
-                                        <div class="skillbar-title"><span>CodeIgniter</span></div>
-                                        <div class="skillbar-bar"></div>
-                                        <div class="skill-bar-percent">80%</div>
-                                    </div>
-                                    <div class="skillbar" data-percent="70%">
-                                        <div class="skillbar-title"><span>Ruby On Rails</span></div>
-                                        <div class="skillbar-bar"></div>
-                                        <div class="skill-bar-percent">70%</div>
-                                    </div>
-
-                                </div>
-
-
-                                <div class="col-md-4 col-sm-4 col-xs-12">
-                                    <!-- SECOND SKILL SECTION -->
-                                    <div class="skills-title">
-                                        <h6 class="text-center">Personal</h6>
-                                    </div>
-                                    <!-- FIRST SKILL BAR -->
-                                    <div class="skillbar" data-percent="70%">
-                                        <div class="skillbar-title"><span>Communication</span></div>
-                                        <div class="skillbar-bar"></div>
-                                        <div class="skill-bar-percent">60%</div>
-                                    </div>
-                                    <!-- SECOND SKILL BAR  -->
-                                    <div class="skillbar" data-percent="60%">
-                                        <div class="skillbar-title"><span>Teamwork</span></div>
-                                        <div class="skillbar-bar"></div>
-                                        <div class="skill-bar-percent">60%</div>
-                                    </div>
-                                    <!-- THIRD SKILL BAR  -->
-                                    <div class="skillbar" data-percent="70%">
-                                        <div class="skillbar-title"><span>Creativity</span></div>
-                                        <div class="skillbar-bar"></div>
-                                        <div class="skill-bar-percent">70%</div>
-                                    </div>
-                                    <!-- FOURTH SKILL BAR  -->
-                                    <div class="skillbar" data-percent="70%">
-                                        <div class="skillbar-title"><span>Dedication</span></div>
-                                        <div class="skillbar-bar"></div>
-                                        <div class="skill-bar-percent">70%</div>
-                                    </div>
-
-                                    <div class="skills-title">
-                                        <h6 class="text-center">Databese</h6>
-                                    </div>
-
-                                    <div class="skillbar" data-percent="75%">
-                                        <div class="skillbar-title"><span>My SQL</span></div>
-                                        <div class="skillbar-bar"></div>
-                                        <div class="skill-bar-percent">75%</div>
-                                    </div>
-
-                                    <div class="skillbar" data-percent="60%">
-                                        <div class="skillbar-title"><span>Postgres</span></div>
-                                        <div class="skillbar-bar"></div>
-                                        <div class="skill-bar-percent">60%</div>
-                                    </div>
-
-                                    <div class="skillbar" data-percent="70%">
-                                        <div class="skillbar-title"><span>SQLite</span></div>
-                                        <div class="skillbar-bar"></div>
-                                        <div class="skill-bar-percent">70%</div>
-                                    </div>
-
-                                    <div class="skillbar" data-percent="65%">
-                                        <div class="skillbar-title"><span>SQL Server</span></div>
-                                        <div class="skillbar-bar"></div>
-                                        <div class="skill-bar-percent">65%</div>
-                                    </div>
-
-                                </div>
-
-
-                                <div class="col-md-4 col-sm-4 col-xs-12">
-                                    <!-- THIRD SKILL SECTION -->
-                                    <div class="skills-title">
-                                        <h6 class="text-center">Software</h6>
-                                    </div>
-                                    <!-- FIRST SKILL BAR -->
-
-                                    <div class="skillbar" data-percent="35%">
-                                        <div class="skillbar-title"><span>Atom IDE</span></div>
-                                        <div class="skillbar-bar"></div>
-                                        <div class="skill-bar-percent">35%</div>
-                                    </div>
-
-                                    <div class="skillbar" data-percent="90%">
-                                        <div class="skillbar-title"><span>Sublime Text 3</span></div>
-                                        <div class="skillbar-bar"></div>
-                                        <div class="skill-bar-percent">90%</div>
-                                    </div>
-
-                                    <div class="skills-title">
-                                        <h6 class="text-center">Language Skills</h6>
-                                    </div>
-
-                                    <div class="skillbar" data-percent="85%">
-                                        <div class="skillbar-title"><span>Myanmar</span></div>
-                                        <div class="skillbar-bar"></div>
-                                        <div class="skill-bar-percent">85%</div>
-                                    </div>
-
-                                    <div class="skillbar" data-percent="60%">
-                                        <div class="skillbar-title"><span>English</span></div>
-                                        <div class="skillbar-bar"></div>
-                                        <div class="skill-bar-percent">60%</div>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <!-- ==========================================
-                   EXPERIENCE
-=========================================== -->
-    <section id="experience" class="section">
-        <div class="container">
-            SECTION TITLE
-            <div class="section-title">
-                <h4 class="text-uppercase text-center"><img src="images/icons/layers.png" alt="demo">Experience</h4>
-            </div>
-
-            <div id="timeline-experience">
-
-                FIRST TIMELINE
-                <div class="timeline-block">
-                    <div class="timeline-dot">
-                        <h6>D</h6>
-                    </div>
-                    <div class="card timeline-content">
-                        <div class="card-content">
-                            TIMELINE TITLE
-                            <h6 class="timeline-title">Service Technician</h6>
-                            TIMELINE TITLE INFO
-                            <div class="timeline-info">
-                                <h6>
-                                    <small>F@X Computer Service</small>
-                                </h6>
-                                <h6>
-                                    <small>2012 - 2013</small>
-                                </h6>
-                            </div>
-                            TIMELINE PARAGRAPH
-                            <p>
-                                My First Job, i worked as a service technician at <b>F@X Computer Sales and Service</b>
-                                .
-                                I have many experiences and and shared some awsome things what i know about computer.
-                            </p>
-                            <!-- BUTTON TRIGGER MODAL
-                        <a href="#" class="modal-dot" data-toggle="modal" data-target="#myModal-4">
-                            <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
-                        </a> -->
-                        </div>
-                    </div>
-                </div>
-
-                SECOND TIMELINE
-                <div class="timeline-block">
-                    <div class="timeline-dot">
-                        <h6>F</h6>
-                    </div>
-                    <div class="card timeline-content">
-                        <div class="card-content">
-                            TIMELINE TITLE
-                            <h6 class="timeline-title">Wordpress Developer</h6>
-                            TIMELINE TITLE INFO
-                            <div class="timeline-info">
-                                <h6>
-                                    <small>Link2Link Technology</small>
-                                </h6>
-                                <h6>
-                                    <small>2014-2014:08</small>
-                                </h6>
-                            </div>
-                            TIMELINE PARAGRAPH
-                            <p>
-                                I started my developer carrier here. I worked on about porfolio website <a
-                                    href="http://link2linktech.com/" target="_blank">Link2Link Technology</a>
-                            </p>
-
-                        </div>
-                    </div>
-                </div>
-
-                THIRD TIMELINE
-                <div class="timeline-block">
-                    <div class="timeline-dot">
-                        <h6>U</h6>
-                    </div>
-                    <div class="card timeline-content">
-                        <div class="card-content">
-                            TIMELINE TITLE
-                            <h6 class="timeline-title">Junior & Senior Web Developer</h6>
-                            TIMELINE TITLE INFO
-                            <div class="timeline-info">
-                                <h6>
-                                    <small>Evercrystal IT Solution</small>
-                                </h6>
-                                <h6>
-                                    <small>2014-2017</small>
-                                </h6>
-                            </div>
-                            TIMELINE PARAGRAPH
-                            <p>
-                                I started my expertise carrier here, spent three years learning and working
-                                in various Developer aspects. I worked on about 20+ projects local and online.
-                                <a href="http://evercrystal.com" target="_blank">Ever Crystal</a>.There, i have to do
-                                many experiences, challange & demend app which was gave by <a href="http://ikloudit.com"
-                                    target="_blank"> iKloudit (now JLS Co Ltd)</a>.
-                            </p>
-
-                        </div>
-                    </div>
-                </div>
-
-                FOURTH TIMELINE
-                <div class="timeline-block">
-                    <div class="timeline-dot">
-                        <h6>S</h6>
-                    </div>
-                    <div class="card timeline-content">
-                        <div class="card-content">
-                            TIMELINE TITLE
-                            <h6 class="timeline-title">Senior Web Developer</h6>
-                            TIMELINE TITLE INFO
-                            <div class="timeline-info">
-                                <h6>
-                                    <small>Code2Lab Co.Ltd</small>
-                                </h6>
-                                <h6>
-                                    <small>2017-2018</small>
-                                </h6>
-                            </div>
-                            TIMELINE PARAGRAPH
-                            <p>
-                                I recently joined here, currently working on various development
-                                aspects. <br>
-                                <a href="http://code2lab.co" target="_blank">Code2Lab Co Ltd</a>.There, i have to do
-                                many experiences, challange & demend app which was gave by <a
-                                    href="https://www.smartsales.asia/" target="_blank"> Smartsale POS System </a>.
-                            </p>
-
-                        </div>
-                    </div>
-                </div>
-                FITHT TIMELINE
-                <div class="timeline-block">
-                    <div class="timeline-dot">
-                        <h6>S</h6>
-                    </div>
-                    <div class="card timeline-content">
-                        <div class="card-content">
-                            TIMELINE TITLE
-                            <h6 class="timeline-title">Senior Backend && Lead Developer</h6>
-                            TIMELINE TITLE INFO
-                            <div class="timeline-info">
-                                <h6>
-                                    <small>Marathon Myanmar</small>
-                                </h6>
-                                <h6>
-                                    <small>2018-Present</small>
-                                </h6>
-                            </div>
-                            TIMELINE PARAGRAPH
-                            <p>
-                                I joined here, currently working on various development
-                                aspects. <br>
-                                <a href="http://myanmarmyanmar.com" target="_blank">Marathon Myanmar Co Ltd</a>.There, i
-                                have to do many experiences, challange & demend app which talen team.
-                            </p>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!--==========================================
-                  PORTFOLIOS
-===========================================-->
-    <section id="portfolios" class="section">
-        <div class="container">
-            <!-- SECTION TITLE -->
-            <div class="section-title">
-                <h4 class="text-uppercase text-center"><img src="images/icons/safe.png" alt="demo">Portfolios</h4>
-            </div>
-            <div id="portfolios-card" class="row">
-
-                <!--OPTIONS-->
-                <ul class="nav nav-tabs">
-                    <!--ALL CATEGORIES-->
-                    <li class="active waves-effect list-shuffle"><a id="all-sample" class="active" href="#all"
-                            data-toggle="tab">ALL</a>
-                        <!--CATEGORIES-->
-                        <!-- <li class="waves-effect list-shuffle"><a class="cate" href="#a" data-toggle="tab">LOGO</a></li>
-                <li class="waves-effect list-shuffle"><a class="cate" href="#b" data-toggle="tab">DRIBBLE</a></li>
-                <li class="waves-effect list-shuffle"><a class="cate" href="#c" data-toggle="tab">WEBSITES</a></li> -->
-                </ul>
-
-                <!--CATEGORIES CONTENT-->
-                <div class="tab-content">
-
-                    <!--All CATEGORIES-->
-                    <div id="all"></div>
-
-                    <!--CATEGORY 1-->
-                    <div id="a">
-
-
-                        <div class="col-md-4 col-sm-12 col-xs-12 grid big inRight">
-                            <figure class="port-effect-up">
-                                <img src="images/portfolios/portrait.png" class="img-responsive" alt="portfolio-demo" />
-                                <figcaption>
-                                    <h2>Portrait Gallery <span> IMAGE</span></h2>
-                                    <p>I developed backend system for Portrait Gallery from SG</p>
-                                    <a href="images/portfolios/portrait.png" class="popup-image"
-                                        data-effect="mfp-move-from-top">View more</a>
-                                </figcaption>
-                            </figure>
-                        </div>
-
-                        <!--CATEGORY CONTENT TWO SMALL-->
-                        <div class="col-md-4 col-sm-6 col-xs-12 grid inLeft">
-                            <figure class="port-effect-scale">
-                                <img src="images/portfolios/bnf.png" class="img-responsive" alt="portfolio-demo" />
-                                <figcaption>
-                                    <h2>Myanmar Day Trips<span> IMAGE</span></h2>
-                                    <p>I developed Travel & Tour project with laravel 4 in local</p>
-                                    <a href="images/portfolios/bnf.png" class="popup-image"
-                                        data-effect="mfp-3d-unfold">View more</a>
-                                </figcaption>
-                            </figure>
-                        </div>
-                        <!--CATEGORY CONTENT ONE BIG-->
-                        <div class="col-md-4 col-sm-12 col-xs-12 grid big inLeft">
-                            <figure class="port-effect-scale">
-                                <img src="images/portfolios/logo.png" class="img-responsive" alt="portfolio-demo" />
-                                <figcaption>
-                                    <h2>Lightbox <span> IMAGE</span></h2>
-                                    <p>I and my leader developed POS system for restaurant with ROR.Sometime ,another
-                                        team player help us</p>
-                                    <a href="images/portfolios/logo.png" class="popup-image"
-                                        data-effect="mfp-3d-unfold">View
-                                        more</a>
-                                </figcaption>
-                            </figure>
-                        </div>
-
-                        <!--CATEGORY CONTENT THREE SMALL-->
-                        <div class="col-md-4 col-sm-6 col-xs-12 grid inLeft">
-                            <figure class="port-effect-up">
-                                <img src="images/portfolios/hub.png" class="img-responsive" alt="portfolio-demo" />
-                                <figcaption>
-                                    <h2>AsiaWebHub <span> IMAGE</span></h2>
-                                    <p>I Developed AsiaWebHub Website from Singapore</p>
-                                    <a href="images/portfolios/hub.png" class="popup-image"
-                                        data-effect="mfp-with-fade">View more</a>
-                                </figcaption>
-                            </figure>
-                        </div>
-                        <!--CATEGORY CONTENT THREE SMALL-->
-                        <div class="col-md-4 col-sm-6 col-xs-12 grid inLeft">
-                            <figure class="port-effect-up">
-                                <img src="images/portfolios/account.png" class="img-responsive" alt="portfolio-demo" />
-                                <figcaption>
-                                    <h2>Ikloudit Account Sys <span> IMAGE</span></h2>
-                                    <p>I Developed backend system of accounting project with Laravel 5.2 from Singapore
-                                    </p>
-                                    <a href="images/portfolios/account.png" class="popup-image"
-                                        data-effect="mfp-with-fade">View more</a>
-                                </figcaption>
-                            </figure>
-                        </div>
-                        <!--CATEGORY CONTENT THREE SMALL-->
-                        <div class="col-md-4 col-sm-6 col-xs-12 grid inLeft">
-                            <figure class="port-effect-up">
-                                <img src="images/portfolios/asiawebhouse.png" class="img-responsive"
-                                    alt="portfolio-demo" />
-                                <figcaption>
-                                    <h2>Lightbox <span> IMAGE</span></h2>
-                                    <p>I developed AsiaWebHouse Website from Singapore.</p>
-                                    <a href="images/portfolios/asiawebhouse.png" class="popup-image"
-                                        data-effect="mfp-with-fade">View more</a>
-                                </figcaption>
-                            </figure>
-                        </div>
-                        <div class="col-md-4 col-sm-6 col-xs-12 grid inLeft">
-                            <figure class="port-effect-up">
-                                <img src="images/portfolios/pms.jpg" class="img-responsive" alt="portfolio-demo" />
-                                <figcaption>
-                                    <h2>Lightbox <span> IMAGE</span></h2>
-                                    <p>I developed Core version for Porject Management Backend system from Singapore.
-                                    </p>
-                                    <a href="images/portfolios/pms.jpg" class="popup-image"
-                                        data-effect="mfp-with-fade">View more</a>
-                                </figcaption>
-                            </figure>
-                        </div>
-                    </div>
-                    <!--CATEGORY 3-->
-
-                    <!--PORTFOLIOS ADD GALLERY BUTTON-->
-                    <div class="row">
-                        <div class="col-md-12 col-sm-12 col-xs-12">
-                            <button id="add-more" class="center-block btn-large waves-effect"><i id="port-add-icon"
-                                    class="fa fa-plus"></i>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-    </section>
-
-
-    <!--==========================================
-                   INTEREST
-===========================================-->
-    <section id="interest" class="section">
-        <div class="container">
-            <!-- SECTION TITLE -->
-            <div class="section-title">
-                <h4 class="text-uppercase text-center"><img src="images/icons/heart.png" alt="demo">Interest</h4>
-            </div>
-
-            <div id="interest-card" class="card">
-                <!--INTEREST TEXT-->
-                <div class="card-content">
-                    <p>
-                        First of all I love music,watching movies and playing games with my buddies. I spend quite a lot
-                        of time
-                        in traveling and photography, these keeps me fresh for working environment.
-                    </p>
-                </div>
-
-                <!--INTEREST ICONS-->
-                <div class="row no-gutters">
-
-                    <!--INTEREST ICON ONE-->
-                    <div class="col-md-3 col-sm-3 col-xs-6  box text-center">
-                        <div class="interest-icon">
-                            <i class="fa fa-music"></i>
-                            <span>Music</span>
-                        </div>
-                    </div>
-                    <!--INTEREST ICON TWO-->
-                    <!-- <div class="col-md-2 col-sm-4 col-xs-6 box text-center">
-                    <div class="interest-icon-even">
-                        <i class="fa fa-gamepad"></i>
-                        <span>Gaming</span>
-                    </div>
-                </div> -->
-                    <!--INTEREST ICON THREE-->
-                    <div class="col-md-3 col-sm-3 col-xs-6 box text-center">
-                        <div class="interest-icon-even">
-                            <i class="fa fa-camera"></i>
-                            <span>Photography</span>
-                        </div>
-                    </div>
-                    <!--INTEREST ICON FOUR-->
-                    <!-- <div class="col-md-2 col-sm-4 col-xs-6 box text-center">
-                    <div class="interest-icon-even">
-                        <i class="fa fa-bicycle"></i>
-                        <span>Cycling</span>
-                    </div>
-                </div> -->
-                    <!--INTEREST ICON FIVE-->
-                    <div class="col-md-3 col-sm-3 col-xs-6 box text-center">
-                        <div class="interest-icon">
-                            <i class="fa fa-plane"></i>
-                            <span>Traveling</span>
-                        </div>
-                    </div>
-                    <!--INTEREST ICON SIX-->
-                    <div class="col-md-3 col-sm-3 col-xs-6 box text-center">
-                        <div class="interest-icon-even">
-                            <i class="fa fa-film"></i>
-                            <span>Movies</span>
-                        </div>
-                    </div>
-
-
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!--==========================================
-             BLOG
-===========================================-->
-    <!-- <section id="blog" class="section">-->
-    <div class="container">
-        <!-- SECTION TITLE -->
-        <!-- <div class="section-title">
-            <h4 class="text-uppercase text-center"><img src="images/icons/post-it.png" alt="demo">Blog</h4>
-        </div>
-        <div id="blog-card" class="row">
-            <div class="col-md-12 col-sm-12">
-                <div class="card"> -->
-        <!--BLOG ODD-->
-        <!-- <div class="blog odd"> -->
-        <!--IMAGE-->
-        <!-- <div class="image">
-                            <img alt="blog-image" src="images/blog/blog-2.png"/>
-                            <div class="image-overlay">
-                                <div class="comments">
-                                    <i class="fa fa-user"></i> John Doe
-                                    <i class="fa fa-clock-o"></i>
-                                    <time datetime="2045-08-16">August 7, 2020</time>
-                                    <i class="fa fa-comments"></i> 168
-                                </div>
-                            </div>
-                        </div> -->
-        <!--DETAILS-->
-        <!-- <div class="content">
-                            <ol class="breadcrumb">
-                                <li><a href="#">Frontend</a></li>
-                                <li><a href="#">Design</a></li>
-                                <li class="active">Material</li>
-                            </ol>
-                            <h6>Material Design</h6>
-                            <p>
-                                Web design encompasses many different skills and disciplines in the production
-                                of websites.Web design include web graphic design, interface design etc.
-                            </p>
-                            <a class="forward" href="single-blog.html">Read More</a>
-                        </div>
-                    </div> -->
-        <!--BLOG EVEN-->
-        <!-- <div class="blog even"> -->
-        <!--IMAGE-->
-        <!-- <div class="image">
-                            <img alt="blog-image" src="images/blog/blog-1.png"/>
-                            <div class="image-overlay">
-                                <div class="comments">
-                                    <i class="fa fa-user"></i> John Doe
-                                    <i class="fa fa-clock-o"></i>
-                                    <time datetime="2045-08-16">August 7, 2020</time>
-                                    <i class="fa fa-comments"></i> 168
-                                </div>
-                            </div>
-                        </div> -->
-        <!--DETAILS-->
-        <!-- <div class="content">
-                            <ol class="breadcrumb">
-                                <li><a href="#">Backend</a></li>
-                                <li><a href="#">Dev</a></li>
-                                <li class="active">Shortcuts</li>
-                            </ol>
-                            <h6>Development Shortcut</h6>
-                            <p>
-                                Web development is a broad term for the work involved in developing a web site
-                                for the Internet or an intranet. Now lets get a bit deeper in this topic
-                            </p>
-                            <a class="forward" href="single-blog.html">Read More</a>
-                        </div>
-                    </div> -->
-        <!--BLOG ODD-->
-        <!-- <div class="blog odd"> -->
-        <!--IMAGE-->
-        <!-- <div class="image">
-                            <img alt="blog-image" src="images/blog/blog-3.png"/>
-                            <div class="image-overlay">
-                                <div class="comments">
-                                    <i class="fa fa-user"></i> John Doe
-                                    <i class="fa fa-clock-o"></i>
-                                    <time datetime="2045-08-16">August 7, 2020</time>
-                                    <i class="fa fa-comments"></i> 168
-                                </div>
-                            </div>
-                        </div> -->
-        <!--DETAILS-->
-        <!-- <div class="content">
-                            <ol class="breadcrumb">
-                                <li><a href="#">Frontend</a></li>
-                                <li><a href="#">Specs</a></li>
-                                <li class="active">UI</li>
-                            </ol>
-                            <h6>A Good UI</h6>
-                            <p>
-                                The user interface (UI), in the industrial design field of human–machine
-                                interaction, is the space where interactions between humans and machines occur.
-                            </p>
-                            <a class="forward" href="single-blog.html">Read More</a>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </div>
-</section> -->
-
-        <!--==========================================
-                  CONTACT
-===========================================-->
-        <section id="contact" class="section">
-            <div class="container">
-                <!-- SECTION TITLE -->
-                <div class="section-title">
-                    <h4 class="text-uppercase text-center"><img src="images/icons/envelope.png" alt="demo">Contact</h4>
-                </div>
-                <div class="row">
-                    <div id="contact-card" class="col-md-5 col-sm-12 col-xs-12">
-                        <!-- CONTACT FORM -->
-                        <div class="card">
-                            <div class="card-content">
-                                <form method="POST" action="http://formspree.io/aungmyozaw.dev@gmail.com">
-                                    <!-- NAME -->
-                                    <div class="input-field">
-                                        <input id="first_name" type="text" class="validate" name="name" required>
-                                        <label for="first_name">Name</label>
-                                    </div>
-                                    <!--SUBJECT-->
-                                    <div class="input-field">
-                                        <input id="sub" type="text" class="validate" name="subject">
-                                        <label for="sub">Subject</label>
-                                    </div>
-                                    <!--EMAIL-->
-                                    <div class="input-field">
-                                        <input id="email" type="email" class="validate" name="email" required>
-                                        <label for="email">Email</label>
-                                    </div>
-                                    <!--MESSAGE-->
-                                    <div class="input-field">
-                                        <textarea id="textarea1" class="materialize-textarea" name="message"
-                                            required></textarea>
-                                        <label for="textarea1">Message</label>
-                                    </div>
-                                    <!-- SEND BUTTON -->
-                                    <div class="contact-send">
-                                        <button id="submit" name="contactSubmit" type="submit" value="Submit"
-                                            class="btn waves-effect">Send
-                                        </button>
-                                    </div>
-                                </form>
-                            </div>
-                            <!--FORM LOADER-->
-                            <div id="form-loader" class="progress is-hidden">
-                                <div class="indeterminate"></div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-7 col-sm-12 col-xs-12">
-                        <!-- CONTACT MAP -->
-                        <div id="map-card" class="card">
-                            <!-- MAP -->
-                            <!-- <div id="myMap"></div> -->
-                            <iframe
-                                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d43206.14153178279!2d96.12629596265037!3d16.83035125326062!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2smm!4v1536646728753"
-                                width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-
-        <!--==========================================
-                     SCROLL TO TOP
-===========================================-->
-        <div id="scroll-top">
-            <div id="scrollup"><i class="fa fa-angle-up"></i></div>
-        </div>
-
-        <!--==========================================
-                      FOOTER
-===========================================-->
-
-        <footer>
-            <div class="container">
-            </div>
-        </footer>
-
-
-        <!-- FOR TOGGLE -->
-        <!-- <div id="color-palate" class="popout card">
-    <div id="color-toggle" class="toggle text-center"><i class="fa fa-cog fa-spin"></i></div>
-    <div class="colors text-center">
-        <p class="text-center">Pick a Color</p>
-        <ul>
-            <li id="blue" class="color1"></li>
-            <li id="teal" class="color2"></li>
-            <li id="gray" class="color3"></li>
-            <li id="green" class="color4"></li>
-            <li id="purple" class="color5"></li>
-            <li id="brown" class="color6"></li>
-            <li id="red" class="color7"></li>
-            <li id="pink" class="color8"></li>
-        </ul>
-        <p class="text-center">Blend & Dark</p>
-        <ul>
-            <li id="blue-blend" class="color1"></li>
-            <li id="green-blend" class="color4"></li>
-            <li id="dark_gray" class="color10"></li>
-        </ul>
-    </div>
-</div> -->
-
-
-        <!--==========================================
-                  SCRIPTS
-===========================================-->
-        <script src="javascript/vendors/jquery-2.1.3.min.js"></script>
-        <script src="javascript/vendors/bootstrap.min.js"></script>
-        <script src="javascript/vendors/materialize.min.js"></script>
-        <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBI14J_PNWVd-m0gnUBkjmhoQyNyd7nllA"></script> -->
-        <script src="javascript/vendors/markerwithlabel.min.js"></script>
-        <script src="javascript/vendors/retina.min.js"></script>
-        <script src="javascript/vendors/scrollreveal.min.js"></script>
-        <script src="javascript/vendors/swiper.jquery.min.js"></script>
-        <script src="javascript/vendors/jquery.magnific-popup.min.js"></script>
-        <script src="javascript/custom.js"></script>
-        <script src="toggle/js.js"></script>
-
+<body data-plugin-scroll-spy data-plugin-options="{'target': '.wrapper-spy'}">
+
+	<div class="body">
+		<header id="header" class="header-floating-icons"
+			data-plugin-options="{'stickyEnabled': false, 'stickyEnableOnBoxed': false, 'stickyEnableOnMobile': false, 'stickyStartAt': 0, 'stickySetTop': '60px', 'stickyChangeLogo': false}">
+			<div class="header-body bg-transparent">
+				<div class="header-container container">
+					<div class="header-row">
+						<div class="header-column">
+							<div class="header-row">
+								<div class="header-nav pt-1">
+									<div class="header-nav-main">
+										<nav class="wrapper-spy collapse">
+											<ul class="nav" id="mainNav">
+												<li>
+													<a data-hash href="#about-me"
+														class="nav-link text-color-dark bg-color-primary">
+														<i class="icon-home icons"></i>
+														<span class="custom-tooltip text-color-dark">About Me</span>
+													</a>
+												</li>
+												<li>
+													<a data-hash href="#experience"
+														class="nav-link text-color-dark bg-color-primary">
+														<i class="icon-eye icons"></i>
+														<span class="custom-tooltip text-color-dark">Experience</span>
+													</a>
+												</li>
+												<li>
+													<a data-hash href="#education"
+														class="nav-link text-color-dark bg-color-primary">
+														<i class="icon-briefcase icons"></i>
+														<span class="custom-tooltip text-color-dark">Education</span>
+													</a>
+												</li>
+												<li>
+													<a data-hash href="#skills"
+														class="nav-link text-color-dark bg-color-primary">
+														<i class="icon-graduation icons"></i>
+														<span class="custom-tooltip text-color-dark">Skills</span>
+													</a>
+												</li>
+												<li>
+													<a data-hash href="#portfolio"
+														class="nav-link text-color-dark bg-color-primary">
+														<i class="icon-diamond icons"></i>
+														<span class="custom-tooltip text-color-dark">Portfolio</span>
+													</a>
+												</li>
+
+												<li>
+													<a data-hash href="#say-hello"
+														class="nav-link text-color-dark bg-color-primary">
+														<i class="icon-envelope-open icons"></i>
+														<span class="custom-tooltip text-color-dark">Say Hello</span>
+													</a>
+												</li>
+											</ul>
+										</nav>
+									</div>
+									<button class="btn header-btn-collapse-nav text-color-light border-radius-0"
+										data-bs-toggle="collapse" data-bs-target=".header-nav-main nav">
+										<i class="fas fa-bars"></i>
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<div role="main" class="main">
+
+			<div id="about-me">
+				<section
+					class="section section-no-border section-parallax bg-transparent custom-section-padding-1 custom-position-1 custom-xs-bg-size-cover parallax-no-overflow m-0"
+					data-plugin-parallax data-plugin-options="{'speed': 1.5}" data-image-src="img/my/about-me-bg.jpeg">
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-4 position-relative custom-sm-margin-bottom-1">
+								<img src="img/my/me.jpeg"
+									class="img-fluid custom-border custom-image-position-2 custom-box-shadow-4" alt />
+							</div>
+							<div class="col-lg-6 col-xl-5">
+								<h1 class="text-color-primary custom-font-size-1">Aung Myo Zaw</h1>
+								<p
+									class="text-color-light font-weight-normal custom-font-size-2 custom-margin-bottom-1">
+									Web Application Developer</p>
+								<span class="custom-about-me-infos">
+									<span class="custom-text-color-1 text-uppercase">Myanmar</span>
+									<span class="custom-text-color-1 text-uppercase mb-3">Information Technology &amp;
+										Services</span>
+									<span class="custom-text-color-1 text-uppercase">
+										<strong class="text-color-light">Previous: </strong>
+										Backend Engineer at Marathon Myanmar
+										<a data-hash href="#experience"
+											class="btn btn-tertiary text-uppercase custom-btn-style-1 text-1 ms-2">View
+											More</a>
+									</span>
+									<span class="custom-text-color-1 text-uppercase">
+										<strong class="text-color-light">Education: </strong>
+										Bachelor in Computer Science
+										<a data-hash href="#education"
+											class="btn btn-tertiary text-uppercase custom-btn-style-1 text-1 ms-2">View
+											More</a>
+									</span>
+								</span>
+							</div>
+							<div class="col-lg-2 col-xl-3 d-none d-lg-block">
+								<img src="img/my/mouse.png" custom-anim class="img-fluid custom-image-pos-1" alt />
+							</div>
+						</div>
+					</div>
+					<ul class="social-icons custom-social-icons">
+						<li class="social-icons-facebook">
+							<a href="http://www.facebook.com/" target="_blank" title="Facebook">
+								<i class="fab fa-facebook-f"></i>
+							</a>
+						</li>
+						<li class="social-icons-twitter">
+							<a href="http://www.twitter.com/" target="_blank" title="Twitter">
+								<i class="fab fa-twitter"></i>
+							</a>
+						</li>
+						<li class="social-icons-youtube">
+							<a href="http://www.youtube.com/" target="_blank" title="Youtube">
+								<i class="fab fa-youtube"></i>
+							</a>
+						</li>
+					</ul>
+				</section>
+
+				<div class="custom-about-me-links bg-color-light">
+					<div class="container">
+						<div class="row justify-content-end">
+							<div class="col-lg-3 text-center custom-xs-border-bottom p-0">
+								<a data-hash href="#say-hello" class="text-decoration-none">
+									<span class="custom-nav-button text-color-dark">
+										<i class="icon-earphones-alt icons text-color-primary"></i>
+										Contact Information
+									</span>
+								</a>
+							</div>
+							<div class="col-lg-2 text-center custom-xs-border-bottom p-0">
+								<a data-hash href="#say-hello" class="text-decoration-none">
+									<span class="custom-nav-button custom-divisors text-color-dark">
+										<i class="icon-envelope-open icons text-color-primary"></i>
+										Send Message
+									</span>
+								</a>
+							</div>
+							<div class="col-lg-3 text-center p-0">
+								<a href="cv/Aungmyozaw'CV.pdf" class="text-decoration-none">
+									<span class="custom-nav-button text-color-dark">
+										<i class="icon-cloud-download icons text-color-primary"></i>
+										Download Resume
+									</span>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<section class="section section-no-border bg-color-light m-0">
+					<div class="container">
+						<div class="row">
+							<div class="col">
+
+								<div
+									class="custom-box-details bg-color-light custom-box-shadow-1 col-lg-6 ms-5 mb-5 mb-lg-4 float-end clearfix">
+									<h4>Personal Details</h4>
+									<div class="row">
+										<div class="col-md-6">
+											<ul class="custom-list-style-1 p-0 mb-0">
+												<li>
+													<span class="text-color-dark">Birthday:</span>
+													<span class="custom-text-color-2">1992 June 9</span>
+												</li>
+												<li>
+													<span class="text-color-dark">Marital:</span>
+													<span class="custom-text-color-2">Married</span>
+												</li>
+												<li>
+													<span class="text-color-dark">Nationality:</span>
+													<span class="custom-text-color-2">Myanmar</span>
+												</li>
+											</ul>
+										</div>
+										<div class="col-md-6">
+											<ul class="custom-list-style-1 p-0 mb-0">
+												<li>
+													<span class="text-color-dark">Skype:</span>
+													<span class="custom-text-color-2"><a class="custom-text-color-2"
+															href="https://join.skype.com/invite/xOiJoZ7X1hVM">Aung
+															Myo</a></span>
+												</li>
+												<li>
+													<span class="text-color-dark">PHONE:</span>
+													<span class="custom-text-color-2"><a class="custom-text-color-2"
+															href="tel:+959 250303166">+959 250303166</a></span>
+												</li>
+												<li>
+													<span class="text-color-dark">EMAIL:</span>
+													<span class="custom-text-color-2"><a class="custom-text-color-2"
+															href="mailto:aungmyozaw.dev@gmail.com">aungmyozaw.dev@gmail.com</a></span>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+
+								<h2 class="text-color-dark font-weight-extra-bold text-uppercase">About Me</h2>
+
+								<p>My name is Aung Myo Zaw and I am a Senior Web Application Developer and Software
+									Developer, currently living in Yangon
+									Myanmar. I have a Bachelor In Software Engineering from Computer University TaungNgu
+									and Diploma in Development from
+									Myanmar Link and my primary focus and inspiration for my studies is Web Development.
+									I am both driven and self-motivated,</p>
+
+								<div class="about-me-more" id="aboutMeMore">
+									<p>and I am constantly experimenting with new technologies and
+										techniques. I am very passionate about Web
+										Development, and strive to better myself as a developer, and the development
+										community as a whole.</p>
+
+
+								</div>
+
+								<a id="aboutMeMoreBtn" class="btn btn-tertiary text-uppercase custom-btn-style-1 text-1"
+									href="#">View More</a>
+
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+
+			<section id="experience" class="section section-secondary section-no-border m-0">
+				<div class="container">
+					<div class="row">
+						<div class="col">
+							<h2 class="text-color-dark text-uppercase font-weight-extra-bold">Experience</h2>
+							<section class="timeline custom-timeline" id="timeline">
+								<div class="timeline-body">
+									<article class="timeline-box right custom-box-shadow-2">
+										<div class="row">
+											<div class="experience-info col-lg-3 col-sm-5 bg-color-primary">
+												<span class="from text-color-light text-uppercase">
+													From
+													<span class="font-weight-semibold">Dec 2018</span>
+												</span>
+												<span class="to text-color-light text-uppercase">
+													To
+													<span class="font-weight-semibold">Present</span>
+												</span>
+												<p class="text-color-light">(4 Years 6 Months)</p>
+												<span class="company text-color-light font-weight-semibold">
+													Marathon Myanmar
+													<span
+														class="company-location text-color-light font-weight-normal text-uppercase">
+														No 621, Yoma Yeik Thar Street, Kamayut Township, Yangon, Myanmar
+													</span>
+												</span>
+											</div>
+											<div class="experience-description col-lg-9 col-sm-7 bg-color-light">
+												<h4 class="text-color-dark font-weight-semibold">Backend and Lead
+													Developer
+												</h4>
+												<p class="custom-text-color-2">
+													Developed and lead a team of 7 to deliver successfully a quality
+													project with a software architect to the client using
+													Microsoft planner and Trello.
+													Delivered successfully 5 web applications and 4 mobile applications
+													as backend and lead developer
+													Api integrates with E-commerce platforms like Lasan Myanmar, GNC
+													Myanmar, Medicare
+													Myanmar, etc...
+													Maintain and support web applications, mobile applications, and API
+													integrations
+													Developed backend API using PHP (Laravel Framework) and frontend
+													with Vuejs
+												</p>
+											</div>
+										</div>
+									</article>
+									<article class="timeline-box right custom-box-shadow-2">
+										<div class="row">
+											<div class="experience-info col-lg-3 col-sm-5 bg-color-primary">
+												<span class="from text-color-light text-uppercase">
+													From
+													<span class="font-weight-semibold">May 2014</span>
+												</span>
+												<span class="to text-color-light text-uppercase">
+													To
+													<span class="font-weight-semibold">Oct 2018</span>
+												</span>
+												<p class="text-color-light">(1 Years 6 Months)</p>
+												<span class="company text-color-light font-weight-semibold">
+													Code2LAB
+													<span
+														class="company-location text-color-light font-weight-normal text-uppercase">
+														Pearl Condo, Kabar Aye Pagoda
+														Road, Bahan Township , Yangon
+													</span>
+												</span>
+											</div>
+											<div class="experience-description col-lg-9 col-sm-7 bg-color-light">
+												<h4 class="text-color-dark font-weight-semibold">Web Application
+													Developer
+												</h4>
+												<p class="custom-text-color-2">
+													Developed POS software with 3 team members and a team lead.
+													Negotiate with the project manager and technical support team to get
+													the best solution of the applications.  
+													Design the database flow and define quick solution.  
+													Provided support for issues while the project was running.  
+													Provided ad-hoc support request from director.  
+													Delivered successfully POS software as a senior software engineer
+													with the team. Developed with Ruby on Rails
+
+												</p>
+											</div>
+										</div>
+									</article>
+									<article class="timeline-box right custom-box-shadow-2">
+										<div class="row">
+											<div class="experience-info col-lg-3 col-sm-5 bg-color-primary">
+												<span class="from text-color-light text-uppercase">
+													From
+													<span class="font-weight-semibold">May 2014</span>
+												</span>
+												<span class="to text-color-light text-uppercase">
+													To
+													<span class="font-weight-semibold">April 2017</span>
+												</span>
+												<p class="text-color-light">(3 Years )</p>
+												<span class="company text-color-light font-weight-semibold">
+													Every Crystal IT Solutions (Ikloud-it SG)
+													<span
+														class="company-location text-color-light font-weight-normal text-uppercase">Yangon,
+														Myanmar</span>
+												</span>
+											</div>
+											<div class="experience-description col-lg-9 col-sm-7 bg-color-light">
+												<h4 class="text-color-dark font-weight-semibold">Web Application
+													Developer
+												</h4>
+												<p class="custom-text-color-2">
+													Delivered successfully one project as a web developer for a travel
+													and tour called Myanmar Day Trip.  
+													Participated and successfully delivered many projects as web
+													developer under the team leader guideline such as custom
+													CMS system, Invoicing system, Inventory System, STS Transport
+													System, SG Fire Distinguishers Sale & Service System and
+													Portrait Gallery Photo Shooting System , etc ..
+													Developed with Laravel and CodeIgniter.
+													Maintained and supported existing applications 
+												</p>
+											</div>
+										</div>
+									</article>
+									<article class="timeline-box right custom-box-shadow-2">
+										<div class="row">
+											<div class="experience-info col-lg-3 col-sm-5 bg-color-primary">
+												<span class="from text-color-light text-uppercase">
+													From
+													<span class="font-weight-semibold">Jan 2014</span>
+												</span>
+												<span class="to text-color-light text-uppercase">
+													To
+													<span class="font-weight-semibold">April 2014</span>
+												</span>
+												<p class="text-color-light">(4 months )</p>
+												<span class="company text-color-light font-weight-semibold">
+													Link2Link Technology
+													<span
+														class="company-location text-color-light font-weight-normal text-uppercase">Yangon,
+														Myanmar</span>
+												</span>
+											</div>
+											<div class="experience-description col-lg-9 col-sm-7 bg-color-light">
+												<h4 class="text-color-dark font-weight-semibold">Web Developer
+												</h4>
+												<p class="custom-text-color-2">
+													Developed and Designed the link2link website using HTML, CSS,
+													Javascript, and Wordpress.
+													Maintained and updated content .
+
+												</p>
+											</div>
+										</div>
+									</article>
+									<article class="timeline-box right custom-box-shadow-2">
+										<div class="row">
+											<div class="experience-info col-lg-3 col-sm-5 bg-color-primary">
+												<span class="from text-color-light text-uppercase">
+													From
+													<span class="font-weight-semibold">Jan 2013</span>
+												</span>
+												<span class="to text-color-light text-uppercase">
+													To
+													<span class="font-weight-semibold">Dec 2013</span>
+												</span>
+												<p class="text-color-light">(1 year )</p>
+												<span class="company text-color-light font-weight-semibold">
+													F@X Computer Sale & Service
+													<span
+														class="company-location text-color-light font-weight-normal text-uppercase">Yangon,
+														Myanmar</span>
+												</span>
+											</div>
+											<div class="experience-description col-lg-9 col-sm-7 bg-color-light">
+												<h4 class="text-color-dark font-weight-semibold">Service Technician
+												</h4>
+												<p class="custom-text-color-2">
+													Maintained and fixed software and hardware issues.
+
+												</p>
+											</div>
+										</div>
+									</article>
+									<div class="timeline-bar"></div>
+								</div>
+							</section>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section id="education" class="section section-no-border bg-color-light m-0">
+				<div class="container">
+					<div class="row">
+						<div class="col">
+							<h2 class="text-color-quaternary text-uppercase font-weight-extra-bold m-0">Education</h2>
+							<div class="owl-carousel nav-bottom custom-dots-style-1 custom-dots-color-1 custom-dots-color-1-dark mb-0"
+								data-plugin-options="{'items': 1, 'loop': false, 'dots': true, 'nav': false}">
+								<div class="row">
+									<div class="col-lg-6 col-sm-6 pb-4">
+										<div class="custom-box-details-2 bg-color-light custom-box-shadow-3">
+											<i class="icon-graduation icons text-color-primary"></i>
+											<h4 class="font-weight-semibold text-color-dark m-0">Computer University of
+												TaungOo</h4>
+											<p class="custom-text-color-2 mb-1">Bachelor's Degree of Computer
+												Science/Information Technology</p>
+											<strong class="text-color-primary">2009-2012</strong>
+										</div>
+									</div>
+									<div class="col-lg-6 col-sm-6 pb-4">
+										<div class="custom-box-details-2 bg-color-light custom-box-shadow-3">
+											<i class="icon-graduation icons text-color-primary"></i>
+											<h4 class="font-weight-semibold text-color-dark m-0">Myanmar Link</h4>
+											<p class="custom-text-color-2 mb-1">Web Professional Advanced</p>
+											<strong class="text-color-primary">2013-2013</strong>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section id="skills" class="section section-no-border bg-color-light m-0">
+				<div class="container">
+					<div class="row align-items-center">
+						<div class="col-md-6 col-lg-8 mb-4 mb-md-0">
+							<div class="row">
+								<div class="col-lg-6">
+									<h2 class="text-color-dark text-uppercase font-weight-extra-bold">Skills & Language
+									</h2>
+									<div class="progress-bars custom-progress-bars">
+										<div
+											class="progress-label text-color-dark font-weight-semibold text-uppercase text-2">
+											<span>Html/Css</span>
+										</div>
+
+										<div class="progress mb-2">
+											<div class="progress-bar" data-appear-progress-animation="60%"></div>
+										</div>
+										<div
+											class="progress-label text-color-dark font-weight-semibold text-uppercase text-2">
+											<span>Javascript</span>
+										</div>
+										<div class="progress mb-2">
+											<div class="progress-bar" data-appear-progress-animation="60%"></div>
+										</div>
+										<div
+											class="progress-label text-color-dark font-weight-semibold text-uppercase text-2">
+											<span>Bootstrap</span>
+										</div>
+										<div class="progress mb-2">
+											<div class="progress-bar" data-appear-progress-animation="80%"
+												data-appear-animation-delay="300"></div>
+										</div>
+										<div
+											class="progress-label text-color-dark font-weight-semibold text-uppercase text-2">
+											<span>PHP</span>
+										</div>
+										<div class="progress mb-2">
+											<div class="progress-bar" data-appear-progress-animation="70%"
+												data-appear-animation-delay="600"></div>
+										</div>
+										<div
+											class="progress-label text-color-dark font-weight-semibold text-uppercase text-2">
+											<span>CodeIgniter</span>
+										</div>
+										<div class="progress mb-2">
+											<div class="progress-bar" data-appear-progress-animation="60%"
+												data-appear-animation-delay="900"></div>
+										</div>
+										<div
+											class="progress-label text-color-dark font-weight-semibold text-uppercase text-2">
+											<span>Laravel</span>
+										</div>
+										<div class="progress mb-2">
+											<div class="progress-bar" data-appear-progress-animation="73%"
+												data-appear-animation-delay="900"></div>
+										</div>
+										<div
+											class="progress-label text-color-dark font-weight-semibold text-uppercase text-2">
+											<span>Ruby on Rails</span>
+										</div>
+										<div class="progress mb-2">
+											<div class="progress-bar" data-appear-progress-animation="65%"
+												data-appear-animation-delay="900"></div>
+										</div>
+										<div
+											class="progress-label text-color-dark font-weight-semibold text-uppercase text-2">
+											<span>NodeJS</span>
+										</div>
+										<div class="progress mb-2">
+											<div class="progress-bar" data-appear-progress-animation="50%"></div>
+										</div>
+										<div
+											class="progress-label text-color-dark font-weight-semibold text-uppercase text-2">
+											<span>ExpressJS</span>
+										</div>
+										<div class="progress mb-2">
+											<div class="progress-bar" data-appear-progress-animation="50%"></div>
+										</div>
+
+									</div>
+								</div>
+								<div class="col-lg-6">
+									<div class="progress-bars custom-progress-bars custom-md-margin-top-1">
+
+										<div
+											class="progress-label text-color-dark font-weight-semibold text-uppercase text-2">
+											<span>VueJS</span>
+										</div>
+										<div class="progress mb-2">
+											<div class="progress-bar" data-appear-progress-animation="40%"
+												data-appear-animation-delay="300"></div>
+										</div>
+										<div
+											class="progress-label text-color-dark font-weight-semibold text-uppercase text-2">
+											<span>ReactJS</span>
+										</div>
+										<div class="progress mb-2">
+											<div class="progress-bar" data-appear-progress-animation="40%"
+												data-appear-animation-delay="300"></div>
+										</div>
+										<div
+											class="progress-label text-color-dark font-weight-semibold text-uppercase text-2">
+											<span>MySQL</span>
+										</div>
+										<div class="progress mb-2">
+											<div class="progress-bar" data-appear-progress-animation="75%"
+												data-appear-animation-delay="600"></div>
+										</div>
+										<div
+											class="progress-label text-color-dark font-weight-semibold text-uppercase text-2">
+											<span>PostgreSQL</span>
+										</div>
+										<div class="progress mb-2">
+											<div class="progress-bar" data-appear-progress-animation="75%"
+												data-appear-animation-delay="600"></div>
+										</div>
+										<div
+											class="progress-label text-color-dark font-weight-semibold text-uppercase text-2">
+											<span>MongoDB</span>
+										</div>
+										<div class="progress mb-2">
+											<div class="progress-bar" data-appear-progress-animation="50%"
+												data-appear-animation-delay="600"></div>
+										</div>
+										<div
+											class="progress-label text-color-dark font-weight-semibold text-uppercase text-2">
+											<span>Digital Ocean</span>
+										</div>
+										<div class="progress mb-2">
+											<div class="progress-bar" data-appear-progress-animation="75%"
+												data-appear-animation-delay="900"></div>
+										</div>
+										<div
+											class="progress-label text-color-dark font-weight-semibold text-uppercase text-2">
+											<span>Laravel Forge</span>
+										</div>
+										<div class="progress mb-2">
+											<div class="progress-bar" data-appear-progress-animation="75%"
+												data-appear-animation-delay="900"></div>
+										</div>
+										<div
+											class="progress-label text-color-dark font-weight-semibold text-uppercase text-2">
+											<span>Git</span>
+										</div>
+										<div class="progress mb-2">
+											<div class="progress-bar" data-appear-progress-animation="85%"
+												data-appear-animation-delay="900"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 col-lg-4">
+							<div class="row">
+								<div class="col">
+									<div class="custom-box-details bg-color-light custom-box-shadow-1">
+										<h4 class="text-color-dark">Languages</h4>
+										<ul class="custom-list-style-1 p-0">
+											<li>
+												<span
+													class="font-weight-semibold custom-max-width-1 text-color-dark"><img
+														src="img/my/engflag.png" class="flag flag-us me-1"
+														alt="English">English:</span>
+												<span class="custom-text-color-2">Intermediate</span>
+											</li>
+											<li>
+												<span
+													class="font-weight-semibold custom-max-width-1 text-color-dark"><img
+														src="img/my/mmflag.png" class="flag flag-es me-1"
+														alt="Myanmar">Myanmar:</span>
+												<span class="custom-text-color-2">Advanced</span>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section id="portfolio" class="section section-no-border bg-color-secondary m-0">
+				<div class="container">
+					<div class="row">
+						<div class="col">
+							<h2 class="text-color-dark font-weight-extra-bold text-uppercase">Portfolio</h2>
+							<ul class="nav nav-pills sort-source custom-nav-sort mb-4" data-sort-id="portfolio"
+								data-option-key="filter">
+								<li class="nav-item active" data-option-value="*"><a class="nav-link active"
+										href="#">Show All</a></li>
+								<!-- <li class="nav-item" data-option-value=".websites"><a class="nav-link"
+										href="#">Websites</a></li>
+								<li class="nav-item" data-option-value=".logos"><a class="nav-link" href="#">Logos</a>
+								</li>
+								<li class="nav-item" data-option-value=".brands"><a class="nav-link" href="#">Brands</a>
+								</li> -->
+							</ul>
+							<div class="sort-destination-loader sort-destination-loader-showing">
+								<div class="row image-gallery sort-destination lightbox" data-sort-id="portfolio"
+									data-plugin-options="{'delegate': 'a.lightbox-portfolio', 'type': 'image', 'gallery': {'enabled': true}}">
+									<div class="col-12 col-sm-6 col-lg-3 isotope-item websites">
+										<div class="image-gallery-item mb-4 pb-3">
+											<a href="img/my/mm.com.png" class="lightbox-portfolio">
+												<span class="thumb-info custom-thumb-info-1">
+													<span class="thumb-info-wrapper">
+														<span class="thumb-info-plus"></span>
+														<img src="img/my/mm.com.png" class="img-fluid" alt="">
+													</span>
+												</span>
+											</a>
+										</div>
+									</div>
+									<div class="col-12 col-sm-6 col-lg-3 isotope-item logos">
+										<div class="image-gallery-item mb-4 pb-3">
+											<a href="img/my/mm.info.png" class="lightbox-portfolio">
+												<span class="thumb-info custom-thumb-info-1">
+													<span class="thumb-info-wrapper">
+														<span class="thumb-info-plus"></span>
+														<img src="img/my/mm.info.png" class="img-fluid" alt="">
+													</span>
+												</span>
+											</a>
+										</div>
+									</div>
+									<div class="col-12 col-sm-6 col-lg-3 isotope-item brands">
+										<div class="image-gallery-item mb-4 pb-3">
+											<a href="img/my/agent.jpg" class="lightbox-portfolio">
+												<span class="thumb-info custom-thumb-info-1">
+													<span class="thumb-info-wrapper">
+														<span class="thumb-info-plus"></span>
+														<img src="img/my/agent.png" class="img-fluid" alt="">
+													</span>
+												</span>
+											</a>
+										</div>
+									</div>
+									<div class="col-12 col-sm-6 col-lg-3 isotope-item websites">
+										<div class="image-gallery-item mb-4 pb-3">
+											<a href="img/my/merchant.png" class="lightbox-portfolio">
+												<span class="thumb-info custom-thumb-info-1">
+													<span class="thumb-info-wrapper">
+														<span class="thumb-info-plus"></span>
+														<img src="img/my/merchant.png" class="img-fluid" alt="">
+													</span>
+												</span>
+											</a>
+										</div>
+									</div>
+									<div class="col-12 col-sm-6 col-lg-3 isotope-item websites">
+										<div class="image-gallery-item mb-4 pb-3">
+											<a href="img/my/merchantapp.jpg" class="lightbox-portfolio">
+												<span class="thumb-info custom-thumb-info-1">
+													<span class="thumb-info-wrapper">
+														<span class="thumb-info-plus"></span>
+														<img src="img/my/merchantapp-s.png" class="img-fluid" alt="">
+													</span>
+												</span>
+											</a>
+										</div>
+									</div>
+									<div class="col-12 col-sm-6 col-lg-3 isotope-item websites">
+										<div class="image-gallery-item mb-4 pb-3">
+											<a href="img/my/matesat.png" class="lightbox-portfolio">
+												<span class="thumb-info custom-thumb-info-1">
+													<span class="thumb-info-wrapper">
+														<span class="thumb-info-plus"></span>
+														<img src="img/my/matesat.png" class="img-fluid" alt="">
+													</span>
+												</span>
+											</a>
+										</div>
+									</div>
+									<div class="col-12 col-sm-6 col-lg-3 isotope-item websites">
+										<div class="image-gallery-item mb-4 pb-3">
+											<a href="img/my/goodp.png" class="lightbox-portfolio">
+												<span class="thumb-info custom-thumb-info-1">
+													<span class="thumb-info-wrapper">
+														<span class="thumb-info-plus"></span>
+														<img src="img/my/goodp.png" class="img-fluid" alt="">
+													</span>
+												</span>
+											</a>
+										</div>
+									</div>
+									<div class="col-12 col-sm-6 col-lg-3 isotope-item websites">
+										<div class="image-gallery-item mb-4 pb-3">
+											<a href="img/my/sx.png" class="lightbox-portfolio">
+												<span class="thumb-info custom-thumb-info-1">
+													<span class="thumb-info-wrapper">
+														<span class="thumb-info-plus"></span>
+														<img src="img/my/sx.png" class="img-fluid" alt="">
+													</span>
+												</span>
+											</a>
+										</div>
+									</div>
+									<div class="col-12 col-sm-6 col-lg-3 isotope-item websites">
+										<div class="image-gallery-item mb-4 pb-3">
+											<a href="img/my/portrait.png" class="lightbox-portfolio">
+												<span class="thumb-info custom-thumb-info-1">
+													<span class="thumb-info-wrapper">
+														<span class="thumb-info-plus"></span>
+														<img src="img/my/portrait.png" class="img-fluid" alt="">
+													</span>
+												</span>
+											</a>
+										</div>
+									</div>
+									<div class="col-12 col-sm-6 col-lg-3 isotope-item websites">
+										<div class="image-gallery-item mb-4 pb-3">
+											<a href="img/my/bnf.png" class="lightbox-portfolio">
+												<span class="thumb-info custom-thumb-info-1">
+													<span class="thumb-info-wrapper">
+														<span class="thumb-info-plus"></span>
+														<img src="img/my/bnf.png" class="img-fluid" alt="">
+													</span>
+												</span>
+											</a>
+										</div>
+									</div>
+									<div class="col-12 col-sm-6 col-lg-3 isotope-item websites">
+										<div class="image-gallery-item mb-4 pb-3">
+											<a href="img/my/mkitchen.png" class="lightbox-portfolio">
+												<span class="thumb-info custom-thumb-info-1">
+													<span class="thumb-info-wrapper">
+														<span class="thumb-info-plus"></span>
+														<img src="img/my/mkitchen.png" class="img-fluid" alt="">
+													</span>
+												</span>
+											</a>
+										</div>
+									</div>
+									<div class="col-12 col-sm-6 col-lg-3 isotope-item websites">
+										<div class="image-gallery-item mb-4 pb-3">
+											<a href="img/my/mkitchen1.png" class="lightbox-portfolio">
+												<span class="thumb-info custom-thumb-info-1">
+													<span class="thumb-info-wrapper">
+														<span class="thumb-info-plus"></span>
+														<img src="img/my/mkitchen1.png" class="img-fluid" alt="">
+													</span>
+												</span>
+											</a>
+										</div>
+									</div>
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div id="say-hello" class="container-fluid" data-spy-offset="40">
+				<div class="row">
+					<div class="col-lg-6 p-0">
+						<section class="section section-no-border bg-color-primary h-100 m-0">
+							<div class="row justify-content-end m-0">
+								<div class="col-half-section col-half-section-right me-3">
+
+									<h2 class="text-color-light text-uppercase font-weight-extra-bold">Say Hello</h2>
+									<form id="contactForm" class="contact-form custom-form-style form-errors-light"
+										action="php/contact-form.php" method="post">
+										<div class="contact-form-success alert alert-success d-none mt-4"
+											id="contactSuccess">
+											<strong>Success!</strong> Your message has been sent to us.
+										</div>
+										<div class="contact-form-error alert alert-danger d-none mt-4"
+											id="contactError">
+											<strong>Error!</strong> There was an error sending your message.
+											<span class="mail-error-message text-1 d-block"
+												id="mailErrorMessage"></span>
+										</div>
+
+										<div class="form-content">
+											<div class="form-control-custom form-control-custom-light">
+												<input type="text" class="form-control" name="name"
+													placeholder="Your Name *"
+													data-msg-required="This field is required." id="name" required="" />
+											</div>
+											<div class="form-control-custom form-control-custom-light">
+												<input type="text" class="form-control" name="subject"
+													placeholder="Subject *" data-msg-required="This field is required."
+													id="subject" required="" />
+											</div>
+											<div class="form-control-custom form-control-custom-light">
+												<textarea maxlength="5000"
+													data-msg-required="Please enter your message." rows="10"
+													class="form-control" name="message" placeholder="Message*"
+													id="message" required="" aria-required="true"></textarea>
+											</div>
+											<input type="submit"
+												class="btn btn-quaternary text-color-light text-uppercase font-weight-semibold outline-none custom-btn-style-2 custom-border-radius-1"
+												value="Submit" />
+										</div>
+									</form>
+
+								</div>
+							</div>
+						</section>
+					</div>
+					<div class="col-lg-6 p-0">
+						<section class="section section-no-border h-100 m-0"
+							style="background: url(img/my/contact-bg-1.jpeg); background-size: cover;">
+							<div class="row m-0">
+								<div class="col-half-section col-half-section-left ms-3">
+									<a href="mailto:aungmyozaw.dev@gmail.com" class="text-decoration-none">
+										<span class="feature-box custom-feature-box align-items-center mb-4">
+											<span class="custom-feature-box-icon">
+												<i class="icon-envelope icons text-color-light"></i>
+											</span>
+											<span class="feature-box-info">
+												<span
+													class="custom-label font-weight-semibold text-uppercase custom-text-color-1 line-height-5">Email</span>
+												<strong
+													class="font-weight-light text-color-light custom-opacity-effect-1">aungmyozaw.dev@gmail.com</strong>
+											</span>
+										</span>
+									</a>
+									<a href="tel:+959250303166" class="text-decoration-none">
+										<span class="feature-box custom-feature-box align-items-center mb-4">
+											<span class="custom-feature-box-icon">
+												<i class="icon-phone icons text-color-light"></i>
+											</span>
+											<span class="feature-box-info">
+												<span
+													class="custom-label font-weight-semibold text-uppercase custom-text-color-1 line-height-5">Phone</span>
+												<strong
+													class="font-weight-light text-color-light custom-opacity-effect-1">+959-250-303-166</strong>
+											</span>
+										</span>
+									</a>
+									<a href="https://join.skype.com/invite/xOiJoZ7X1hVM" class="text-decoration-none">
+										<span class="feature-box custom-feature-box align-items-center mb-4">
+											<span class="custom-feature-box-icon">
+												<i class="icon-social-skype icons text-color-light"></i>
+											</span>
+											<span class="feature-box-info">
+												<span
+													class="custom-label font-weight-semibold text-uppercase custom-text-color-1 line-height-5">Skype</span>
+												<strong
+													class="font-weight-light text-color-light custom-opacity-effect-1">Aung
+													Myo</strong>
+											</span>
+										</span>
+									</a>
+									<span class="feature-box custom-feature-box align-items-center">
+										<span class="custom-feature-box-icon">
+											<i class="icon-share icons text-color-light"></i>
+										</span>
+										<a href="https://www.facebook.com/aungmyozaw.mm/"
+											class="d-flex text-decoration-none">
+											<span class="feature-box-info">
+												<span
+													class="custom-label font-weight-semibold text-uppercase custom-text-color-1 line-height-5">Follow
+													me</span>
+												<strong
+													class="font-weight-light text-color-light custom-opacity-effect-1">Facebook</strong>
+											</span>
+										</a>
+										<a href="https://www.linkedin.com/in/aung-myo-zaw-b852a8115/"
+											class="d-flex text-decoration-none">
+											<span class="feature-box-info p-0 mt-2">
+												<strong
+													class="font-weight-light text-color-light custom-opacity-effect-1">Linkedin</strong>
+											</span>
+										</a>
+									</span>
+								</div>
+							</div>
+						</section>
+					</div>
+				</div>
+			</div>
+
+			<footer id="footer" class="m-0 p-0">
+				<div class="footer-copyright bg-color-light m-0">
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-12 m-0">
+								<p class="custom-text-color-2">© Copyright 2022. All Rights Reserved.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</div>
+
+		<!-- Vendor -->
+		<script src="vendor/jquery/jquery.min.js"></script>
+		<script src="vendor/jquery.appear/jquery.appear.min.js"></script>
+		<script src="vendor/jquery.easing/jquery.easing.min.js"></script>
+		<script src="vendor/jquery.cookie/jquery.cookie.min.js"></script>
+		<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+		<script src="vendor/jquery.validation/jquery.validate.min.js"></script>
+		<script src="vendor/jquery.easy-pie-chart/jquery.easypiechart.min.js"></script>
+		<script src="vendor/jquery.gmap/jquery.gmap.min.js"></script>
+		<script src="vendor/lazysizes/lazysizes.min.js"></script>
+		<script src="vendor/isotope/jquery.isotope.min.js"></script>
+		<script src="vendor/owl.carousel/owl.carousel.min.js"></script>
+		<script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+		<script src="vendor/vide/jquery.vide.min.js"></script>
+		<script src="vendor/vivus/vivus.min.js"></script>
+
+		<!-- Theme Base, Components and Settings -->
+		<script src="js/theme.js"></script>
+
+		<!-- Current Page Vendor and Views -->
+		<script src="js/views/view.contact.js"></script>
+
+		<!-- Demo -->
+		<script src="js/demos/demo-resume.js"></script>
+
+		<!-- Theme Custom -->
+		<script src="js/custom.js"></script>
+
+		<!-- Theme Initialization Files -->
+		<script src="js/theme.init.js"></script>
 
 </body>
 
